@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Главная страница </title>
+      
+  <body>
+     
+<header>
+   <div class="content">
+    {% block content %}
+    <h1>{{tegh1}}</h1>
+    <form method="POST">
+
+          <input type="text" id="title" name="tegh1" value="{{ tegh1 }}" required>
+  
+        <button type="submit">Сохранить</button>
+      </form>
+    {% endblock %}  
+   </div>
+ 
+   
+ 
+ 
+  </body>
+  
+</html>
+</header>
