@@ -8,10 +8,14 @@
 <header>
    <div class="content">
     {% block content %}
-    <h1>{{tegh1}}</h1>
+    <h1>{{text}}</h1>
     <form method="POST">
 
-          <input type="text" id="title" name="tegh1" value="{{ tegh1 }}" required>
+          <input type="email" id="email" name="email" placeholder="email" value="email" required>
+  
+          <input type="phone" id="phone" name="phone" placeholder="phone"  value="phone" required>
+  
+          <input type="text"  id="password" name="password" placeholder='password' value="password" required>
   
         <button type="submit">Сохранить</button>
       </form>
